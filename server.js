@@ -7,7 +7,7 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 
 app.post('/licenses', (req, res) => {
-    console.log('======', req.body, '======');
+    console.log('======', typeof(req.body), '======');
     res.json({
         one: 1
     });
