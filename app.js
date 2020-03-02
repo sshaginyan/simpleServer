@@ -16,3 +16,7 @@ app.post('/licenses', (req, res) => {
 });
 
 app.listen(process.env.PORT || 8080);
+
+// 1000 users
+// 3 million records/year (line items)
+// quotes? quotes/day average
